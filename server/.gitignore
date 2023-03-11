@@ -1,0 +1,23 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore the virtual environment directory
+django-react-venv/
+
+# Ignore local settings file
+**/local_settings.py
+
+# Ignore database files
+*.db
+
+# Ignore static files directory (assumes you're using collectstatic)
+**/static/
+
+# Ignore media files directory
+**/media/
+
+# Ignore log files
+**/logs/
+
+# Ignore temporary files
+**/tmp/
