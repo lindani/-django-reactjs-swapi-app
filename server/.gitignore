@@ -1,6 +1,9 @@
 # Ignore compiled Python files
 *.pyc
 
+# Ignore environment variables
+.env
+
 # Ignore the virtual environment directory
 django-react-venv/
 
