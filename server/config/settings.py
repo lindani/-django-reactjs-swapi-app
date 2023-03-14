@@ -38,12 +38,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'myapp',
     'graphene_django',
     'corsheaders',
 ]
 
 GRAPHENE = {
-    "SCHEMA": "myapp.schema.schema"
+    "SCHEMA": "myapp.schema.schema",
+    "MODELS": "myapp.models.Person",
 }
 
 MIDDLEWARE = [
